@@ -12,7 +12,7 @@ function Send () {
 let dir = 0
 basic.showIcon(IconNames.Happy)
 dir = 0
-radio.setGroup(1)
+radio.setGroup(52)
 serial.redirect(
 SerialPin.USB_TX,
 SerialPin.USB_RX,
